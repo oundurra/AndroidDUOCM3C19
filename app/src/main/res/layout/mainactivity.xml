@@ -30,7 +30,7 @@
                 android:onClick="seleccionarUsuarios"
                 android:padding="8dp"
                 app:icon="@android:drawable/ic_menu_more"
-                app:iconPadding="0dp" />
+                app:iconPadding="1dp" />
 
             <Button
                 android:id="@+id/btnGrabar"

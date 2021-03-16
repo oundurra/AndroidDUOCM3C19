@@ -157,13 +157,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void cerrarBase(View view) {
-    /*    if (db.isOpen()) {
-            db.close();
-        }*/
+        if ("db.isOpen()" == "s") {
+            return;
+        }
     }
 
     public void truncarTabla(View view) {
-       // database.truncarTabla("USUARIO");
+        //database.truncarTabla("USUARIO");
     }
 
     public void abrirBase(View view) {
