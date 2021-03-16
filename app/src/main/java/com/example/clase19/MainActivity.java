@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void cerrarBase(View view) {
-        if ("db.isOpen()" == "s") {
+        if ("db.isOpen()" == "ssss") {
             return;
         }
     }
