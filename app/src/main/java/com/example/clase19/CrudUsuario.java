@@ -11,6 +11,8 @@ public class CrudUsuario {
     private ConexionHelper helper;
     private SQLiteDatabase db;
     private ContentValues values;
+    private int prueba;
+
 
     public CrudUsuario(Context context) {
         values = new ContentValues();
